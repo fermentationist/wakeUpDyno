@@ -48,16 +48,12 @@ app.listen(PORT, () => {
 ---
 ## Credits
 
-**woke-dyno** was made by Dennis Hodges, a Javascript developer.
-
-Thank you to [Theodore Vorillas](https://www.vorillaz.com/), who created the font and icon collection that this component is based on, and which is the source of all of the svg path data used in this package.
-
-You can find his original icon repository here: [Devicons](https://github.com/vorillaz/devicons).
+**woke-dyno** was made by [Dennis Hodges](https://github.com/fermentationist), a Javascript developer.
 
 ---
 ## License
 
-#### Copyright © 2019 [Dennis Hodges](https://github.com/fermentationist) 
+#### Copyright © 2019 Dennis Hodges
 
 
 __The MIT License__
