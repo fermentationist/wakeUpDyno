@@ -29,18 +29,9 @@ const wakeDyno = require("woke-dyno");
 // create an Express app
 const app = express();
 
-// start the server, then run wokeDyno
+// start the server, then call wokeDyno(url).start()
 app.listen(PORT, () => {
-    wakeDyno(DYNO_URL); // DYNO_URL should be the url of your Heroku app
-});
-
-```
-
-The function will return a `Promise`, so you can use `then` to chain additional functions, if you wish.
-
-```node
-app.listen(PORT, () => {
-    wakeDyno(DYNO_URL).then(() => console.log("This happens next."));
+    wakeDyno(DYNO_URL).start(); // DYNO_URL should be the url of your Heroku app
 });
 
 ```
