@@ -46,20 +46,6 @@ app.listen(PORT, () => {
 ```
 
 ---
-## Options
-A list of the icon names accepted by the component can be found in the [Devicons cheatsheet](http://vorillaz.github.io/devicons/#/cheat), or can be returned as an array by using the package's `iconList` export. **woke-dyno** also exports the `RandomIcon` component to display a randomly chosen icon.
-
-```js
-import DevIcon, {iconList, RandomIcon} from "woke-dyno";
-
-console.log(`Here is a list of icon names used by this component: ${iconList}`);
-
-const Demo = props => {
-    return (<RandomIcon />);
-}
-```
-
----
 ## Credits
 
 **woke-dyno** was made by Dennis Hodges, a Javascript developer.
